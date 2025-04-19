@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+/* src/index.css */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
